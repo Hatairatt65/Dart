@@ -19,6 +19,7 @@ void main() {
  
     double splitAmount = totalBill / numPeople;
  
+
     print("Each person should pay: \$${splitAmount.toStringAsFixed(2)}");
   } catch (e) {
     print("Invalid input. Please enter numeric values.");
