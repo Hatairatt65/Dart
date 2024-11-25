@@ -16,10 +16,10 @@ String generatePassword(int length) {
 
 void main() {
   // รับความยาวรหัสผ่านจากผู้ใช้
-  stdout.write("Enter the length of the password: ");
+  stdout.write("กรุณาใส่จำนวนรหัสผ่านที่ต้องการ: ");
   int length = int.parse(stdin.readLineSync()!);  // รับอินพุตจากผู้ใช้และแปลงเป็นตัวเลข
 
   // สร้างรหัสผ่านแบบสุ่ม
   String password = generatePassword(length);
-  print("Generated password: $password");
+  print("รหัสผ่านที่ได้: $password");
 }
